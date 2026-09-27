@@ -98,8 +98,8 @@ function mainSlider() {
 		dots:false ,
 		fade: true,
 		arrows: true,
-		prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-		nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
+		prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+		nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
 		responsive: [
 			{ breakpoint: 1200, settings: { dots: false, arrows: false } }
 		]
@@ -164,8 +164,8 @@ $('.team-active').slick({
 	dots: true,
 	infinite: true,
 	arrows: false,
-	prevArrow: '<button type="button" class="slick-prev"><i class="far fa-chevron-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="far fa-chevron-right"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
 	speed: 1000,
 	slidesToShow:4,
 	slidesToScroll: 1,
